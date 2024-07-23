@@ -1,8 +1,14 @@
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 1200px) {
   #desktop-nav {
     display: none;
   }
   #hamburger-nav {
     display: flex;
   }
+}
+@media (max-width: 768px) {
+  .nav ul li {
+    display: block;
+    margin: 0.5rem 0;
+}
 }
