@@ -6,9 +6,3 @@
     display: flex;
   }
 }
-@media (max-width: 768px) {
-  .nav ul li {
-    display: block;
-    margin: 0.5rem 0;
-}
-}

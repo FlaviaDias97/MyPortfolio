@@ -9,31 +9,32 @@
   </head>
   <body id="home-page">
     <nav id="desktop-nav">
-      <div class="logo">Flávia Dias</div>
-      <div>
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#technologies">Technologies</a></li>
-          <li><a href="#Projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-    <nav id="hamburger-nav">
-      <div class="logo">Flávia Dias</div>
-      <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
+        <div class="logo">Portfolio</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#technologies">Technologies</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </div>
-        <ul class="menu-links">
-         <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#Technologies" onclick="toggleMenu()">Technologies</a></li>
-          <li><a href="#Projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-        </ul>
-      </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo">Flávia Dias</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#technologies" onclick="toggleMenu()">Technologies</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </ul>
+        </div>
     </nav>
     <section id="profile">
       <div class="section__pic-container">
@@ -41,7 +42,7 @@
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="tittle">Flávia Dias</h1>
+        <h1 class="title">Flávia Dias</h1>
         <p class="section__text__p2">Frontend Developer</p>
         <div class="btn-container">
           <button
@@ -50,9 +51,8 @@
         >
           Download CV
           <!-- Add updated CV -->
-        </button>
-     
-          </button>
+        </button> 
+      </button>
           <button class="btn btn-color-1" onclick="location.href='./#contact'">
             Contact Info
           </button>
@@ -73,9 +73,9 @@
       </div>
     </section>
     <hr>
-    <section id="About">
+    <section id="about">
       <p class="section__text__p4">Get to Know More</p>
-      <h1 class="title">About Me</h1>
+      <h1 class="title1">About Me</h1>
       <div class="section-container">
         <div class="section__pic-container">
           <img src="./assets/Photo2.png" alt="profile picture"class="about-pic"/>
@@ -103,9 +103,9 @@
       
     </section>
     <hr>
-    <section id="Technologies">
+    <section id="technologies">
       <p class="section__text__p4">Explore My</p> 
-      <h1 class="title">Technologies</h1>
+      <h1 class="title1">Technologies</h1>
       <br>
        <div class="technologies-details-container">
         <div class="about-containers">
@@ -179,7 +179,7 @@
   </section>
     <section id= "projects">
       <P class="section__text__p4"> Browse My Work</P> 
-      <h1 class="title"> Projects</h1>
+      <h1 class="title1"> Projects</h1>
       <div class="technologies-details-container">
         <div class="about-containers">
         <div class="details-container color-container">
@@ -237,44 +237,35 @@
     <hr>
     <section id="contact">
 <p class="section__text__p4"> Get in Touch</p>
-<h1 class="title">Contact me</h1>
+<h1 class="title1">Contact me</h1>
 <div class="contact-info-upper-container">
-  <!-- contact form  -->
-  <div class="contact-container">
-   <form action="" class="contact-left">
-    <div class="contact-left-title">
- </div>
-    <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
-    <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
-    <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
-    <button type="submit"> Submit </button>
-   </form>
-   <div class="contact-right">
-</div> 
+</div>
 </section>
-<footer>
-  <div class="footer-content">
-    <div class="logo">Flávia Dias</div>
-    <ul class="nav-links">
-      <li><a href="#about">About</a></li>
-      <li><a href="#technologies">Technologies</a></li>
-      <li><a href="#Projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </div>
-  <div id="socials-container2">
-    <img src="./assets/linkedin.png"
-      alt="Linkedin profile"
-      class="icon" onclick="location.href='https://www.linkedin.com/in/flávia-dias-02851516a'"
-    />
-    <img src="./assets/github.png"
-    alt="github"
-    class="icon" onclick="location.href='https://github.com/FlaviaDias97'"
-    />
-  <div class="footer-bottom">
-    <p>&copy; 2024 Flávia Dias. All rights reserved.</p>
-  </div>
-</footer>
-  <script src="script.js"></script>
+    </form>
+    <footer>
+            <div class="contact-details-container">
+                <div class="contact-details">
+                    <img src="./assets/email2.png" alt="email" class="icon">
+                    <p>flaviadias97@yahoo.com</p>
+                </div>
+                <div class="contact-details">
+                    <img src="./assets/phone.png" 
+                    alt="phone" class="icon">
+                    <p>+44 758 884 7788</p>
+                </div>
+                <div class="contact-details">
+                    <img src="./assets/linkedin.png" alt="linkedin" class="icon">
+                    <p>Flávia Dias</p>
+                </div>
+                <div class="contact-details">
+                    <img src="./assets/github.png" alt="github" class="icon">
+                    <p>@FlaviaDias97</p>
+                </div>
+              </footer>
+            </div>
+        </div>
+    </section>
+    <p class="copyright">&copy; 2024 Flávia Dias. All rights reserved.</p>
+<script src="script.js"></script>
   </body>
 </html>
