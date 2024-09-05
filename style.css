@@ -10,7 +10,7 @@
 
 /* Default style for all pages */
 body {
-  background-color: white; /* Default background color for other pages */
+  background-color: white; 
   margin: 0;
   font-family: "Quicksand", sans-serif;
 }
