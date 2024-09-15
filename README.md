@@ -40,8 +40,8 @@ Projects
 Here are some of the key projects featured in the portfolio:
 1. PupCakes
     * Tech Stack: HTML, CSS, JavaScript
-    * Description: Brief description of the project.
-    * Live Demo: [Link when ready]
+    * Description: This project is a fictional bakery site featuring dog-inspired cupcakes.
+    * * Live Demo: [Link when ready]
     * GitHub Repo: [Link when ready]
 2. Accessories Boutique
     * Tech Stack: [not yet started]
