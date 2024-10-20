@@ -41,20 +41,20 @@ Here are some of the key projects featured in the portfolio:
 1. PupCakes
     * Tech Stack: HTML, CSS, JavaScript
     * Description: This project is a fictional bakery site featuring dog-inspired cupcakes.
-    * * Live Demo: [Link when ready]
+    * Live Demo: [Link when ready]
     * GitHub Repo: [Link when ready]
 2. Accessories Boutique
     * Tech Stack: [not yet started]
     * Description:
     * Live Demo: [Link when ready ]
     * GitHub Repo: [Link when ready]
-3.Bible Quiz
+3. Bible Quiz
     * Tech Stack: [not yet started]
     * Description:
     * Live Demo: [Link when ready ]
     * GitHub Repo: [Link when ready]
 
-You can view these projects and more in the Projects section of the portfolio.
+You can view these projects and more in the Projects section of the portfolio. (NOT YET LINKED)
 
 How to Run Locally
 To run the project locally, follow these steps:
